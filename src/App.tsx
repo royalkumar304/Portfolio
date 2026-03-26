@@ -88,18 +88,18 @@ const skills = [
 ];
 
 const initialCertifications = [
-  { title: "Build Generative AI Apps", issuer: "Udemy", date: "Aug '25", link: "udemy.pdf", image: "udemy.jpg", pdf: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" },
-  { title: "Fundamentals of Data Structures Using C++", issuer: "Lovely Professional University", date: "Jul '25", link: "training.pdf", image: "tra.png", pdf: "" },
-  { title: "Fundamentals of Network Communication", issuer: "Coursera", date: "Oct '24", link: "Fundamentals.pdf", image: "nc.png", pdf: "" },
-  { title: "The Bits and Bytes of Computer Networking", issuer: "Google (Coursera)", date: "Sep '24", link: "Bits.pdf", image: "bits.png", pdf: "" },
-  { title: "Responsive Web Design", issuer: "freeCodeCamp", date: "Oct '23", link: "web.pdf", image: "res.png", pdf: "" }
+  { title: "Build Generative AI Apps", issuer: "Udemy", date: "Aug '25", link: "/udemy.pdf", image: "udemy.jpg", pdf: "#" },
+  { title: "Fundamentals of Data Structures Using C++", issuer: "Lovely Professional University", date: "Jul '25", link: "/training.pdf", image: "tra.png", pdf: "#" },
+  { title: "Fundamentals of Network Communication", issuer: "Coursera", date: "Oct '24", link: "/Fundamentals.pdf", image: "nc.png", pdf: "#" },
+  { title: "The Bits and Bytes of Computer Networking", issuer: "Google (Coursera)", date: "Sep '24", link: "/Bits.pdf", image: "bits.png", pdf: "#" },
+  { title: "Responsive Web Design", issuer: "freeCodeCamp", date: "Oct '23", link: "/web.pdf", image: "res.png", pdf: "#" }
 ];
 
 const achievements = [
   "Led end-to-end development of an AI legal assistant.",
-  "Built and deployed a skin-disease detection system (May '25).",
+  "Built a skin-disease detection system (May '25).",
   "Optimized a PDF data-processing pipeline (Jun '25).",
-  "Consistently recognized for strong performance in national hackathons.",
+  "Consistently recognized for strong performance in  hackathons.",
   "Collaborated on scalable backend systems."
 ];
 
@@ -456,7 +456,7 @@ export default function App() {
               <div className="relative p-1.5 rounded-full bg-gradient-to-tr from-blue-500 to-emerald-500 shadow-2xl shadow-blue-500/30 animate-pulse-slow">
                 <div className="w-32 h-32 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white dark:border-[#0b1121] shadow-inner">
                   <img 
-                    src="pf.jpeg" 
+                    src="/pf.jpeg" 
                     alt="Royal Kumar" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                     referrerPolicy="no-referrer"
